@@ -1,0 +1,75 @@
+.all-products-card .card{
+    margin: 20px 0;
+}
+#About .about-left img{
+    border-radius: 15px;
+    box-shadow: -12px 14px 1px 7px #41D050;
+}
+#About .about-right h1{
+    font-size: 39px;
+    font-weight: 500;
+    color: #2C2C2C;
+}
+#About .about-right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #838383;
+    margin: 40px 0;
+}
+#About .about-right button{
+    box-shadow: 0px 18px 40px -12px #5C618D40;
+    border: none;
+    border-radius: 40px;
+    background-color: #41D050;
+    width: 250px;
+    height:55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#Features .features-title{
+    text-align: center;
+}
+#Features .features-card{
+    width: 100%;
+    height:auto;
+    padding: 40px 10px;
+    text-align: center;
+    box-shadow: 0px 18px 40px -12px #5C618D40;
+    border-radius: 40px;
+}
+#Features .features-card .features-card-body{
+    margin: 40px 0 15px 0;
+}
+#Features .features-card .features-card-body h4{
+    font-size: 22px;
+    color: #2C2C2C;
+}
+#Features .features-card .features-card-body p{
+    font-size: 14px;
+    color: #838383;
+}
+@media only screen  and (max-width:992px){
+    #About .about-right {
+        margin: 50px 0 0 0;
+         display: flex;
+         flex-flow: column;
+         justify-content: center;
+     }
+     #About .about-right h1{
+         text-align: center;
+     }
+     #About .about-right p{
+         text-align: center;
+     }
+     #About .about-right button{
+         align-self:center;
+     }
+     .features-title h1{
+          font-size: 1.5em;
+     }
+     #About .about-left img {
+         border-radius: 15px;
+         box-shadow: 0px 10px 0px 9px #41d050;
+     }
+}

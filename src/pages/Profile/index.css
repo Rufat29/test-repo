@@ -1,0 +1,116 @@
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-header-right{
+    display: flex;
+    align-items: center;
+}
+.profile-header-right p{
+    padding: 0 0 0 20px;
+    margin-bottom:unset !important ;
+}
+
+.account-form form label{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .8em;
+    color: #100718;
+    opacity: .75;
+    display: block;
+}
+.account-form form input{
+    display: block;
+    border: .1rem solid rgba(47, 9, 9, 0.279);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8;
+    color: #000;
+    margin-bottom: 15px;
+}
+.account-form h4{
+    font-style: normal;
+    font-weight: 500;
+    color: #100718;
+    opacity: .75;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.account-form button{
+    width: 100%;
+    color: #fff;
+    background-color: #41D050;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+.info-section{
+    display: flex;
+    justify-content: space-around;
+}
+.modal-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+    border-bottom: 1px solid #CACDD8;
+}
+.order-info-modal::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+.order-info-modal::-webkit-scrollbar-track {
+    background: transparent; 
+}
+  /* Handle */
+.order-info-modal::-webkit-scrollbar-thumb {
+    background: #CACDD8; 
+    transition: .5s ease;
+    border-radius: 5px;
+}
+  /* Handle on hover */
+.order-info-modal::-webkit-scrollbar-thumb:hover {
+    background: #9b9da2; 
+}
+.modal-footer{
+    border-top: unset !important;
+}
+.btn-success{
+    border-radius: 20px !important;
+    padding: 10px 25px !important;
+    background: #41D050 !important;
+}
+.rounded-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #244D8B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen  and (max-width:540px){
+    .profile-header{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .info-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info-section form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .account-form{
+        margin: 20px 0;
+    }
+}

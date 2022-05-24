@@ -1,0 +1,17 @@
+.blue-bg{
+    background-color: #F3F9FF;
+}
+.breadcrumb{
+    background: transparent !important;
+    padding: 10px 0 !important;
+}
+.breadcrumb a{
+    color: #000;
+}
+.breadcrumb-item.active{
+    color: #41D050 !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "•" !important;
+    color: #000 !important;
+}

@@ -1,0 +1,11 @@
+/* .pass .login{
+    padding: 75px 0;
+} */
+.auto-digit{
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+}
+.digit-code{
+    text-align: center;
+}
